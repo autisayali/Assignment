@@ -150,7 +150,6 @@ def dashboard(request):
 def navbar(request):
     return render(request,'navbar.html')
 
-def tp(request):
-    return render(request,'tp.html')
+
 
 
