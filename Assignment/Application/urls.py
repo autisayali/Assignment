@@ -15,6 +15,5 @@ path('tp',views.tp,name='tp'),
 path('dashboard',views.dashboard,name='dashboard'),
 
 path('navbar',views.navbar,name='navbar'),
-
 path('RecordEdited',views.RecordEdited,name='record'),
 ]
