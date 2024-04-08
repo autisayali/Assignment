@@ -1,0 +1,47 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#table1 {
+        
+    border:solid 5px black;
+          border-radius:10px; 
+          padding-left:100px;
+            padding-top:30px;         
+          width:1570px;
+          height:130px;
+          font-size:40px;
+          background-color: skyblue;
+          border-collapse: separate;
+          border-spacing: 10px;
+
+  }
+  
+  th, td {
+    
+    border:solid 3px black;
+    font-size:40px;
+    padding: 8px;
+    padding-right: 20px; 
+    padding-left: 20px; 
+    
+    background-color: transparent;
+  }
+  .chart-container {
+    width: 600px; 
+    height: 750px; 
+  }

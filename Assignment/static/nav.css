@@ -1,0 +1,138 @@
+#div1{
+   
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    font-size: 24px;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+ 
+  #div2{
+    height: 500px;
+    font-size:40px;
+    width: 520px;
+    border-radius: 25px;
+    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  #head{
+    font-size:50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  #a{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #heading{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    
+
+  }
+  body{
+    
+    background-image: url('images/b3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    
+    font-size: 24px;
+    color: white;
+    
+  }
+ 
+  input[type=button], input[type=submit], input[type=reset] {
+    
+   
+    background-color: transparent;
+    color: rgba(241, 234, 234, 0.849);
+    font-size: 25px;
+    padding: 16px 16px;
+    text-decoration: none;
+    margin: 6px 2px;
+    cursor: pointer;
+    width: 8em; 
+     height: 2em;
+    
+  }
+  input[type=text], [type=password],select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 25px;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  a:link {
+    color: #ffd1b3;
+    background-color:black;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    height: 50%;
+    background-color:  transparent; 
+    
+    
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    animation: marquee 30s infinite linear;
+  }
+    
+    h1, p {
+      color: black;
+      text-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    #table1 {
+        
+        font-size:large;
+
+      }
+      
+      th, td {
+        padding: 8px;
+        
+        font-size:large;
+      }

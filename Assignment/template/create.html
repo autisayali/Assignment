@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=0.1">
+       <link rel="stylesheet" href="{% static 'create.css' %}">
+        <title>Create project</title>
+        <style>
+             
+           
+        </style>
+    </head>
+<body>
+    
+    
+    <form action='/create' method='post' >
+        {% csrf_token %}
+        
+        
+    </form>
+      
+        
+                <h2>Create Project</h2>
+                <form action='/send' method='post' >
+                    
+                    {% csrf_token %}
+           
+                   
+                    <h3></h3>
+                    <table >
+                    <tr>
+                    <td><textarea rows="6" cols="70" id='t1' name='desc' placeholder='Enter Project Theam' required></textarea></td>
+                    
+                   
+                    </tr>
+                </table>
+                    <table width='100%'>
+                    <br/>
+                    <tr>
+                    <td><label>ID</label></td>
+                    <td><label>Status</label></td>
+                    <td><label>Division</label></td>
+                    
+                    </tr>
+                    <tr>
+                    <td><input type='text' name='ID' autofocus required></td>
+                    <td><select name="Status">
+                        <option value="Closed">Closed</option>
+                        <option value="Running">Running</option>
+                        
+                      </select></td>
+                    
+                    <td><input type='text' name='Division' autofocus required></td>
+                    </tr>
+
+
+
+                </tr>
+                <tr>
+                <td><label>Category</label></td>
+                <td><label>Priority</label></td>
+                <td><label>Department</label></td>
+                </tr>
+                <tr>
+                    <td><select name="Category">
+                        <option value="Quality A">Quality A</option>
+                        <option value="Quality B">Running B</option>
+                        <option value="Quality C">Quality C</option>
+                        <option value="Quality D">Quality D</option>
+                        
+                      </select></td>
+                      
+                <td> <select name="Priority" >
+                    <option value="High">High</option>
+                    <option value="Low">Low</option>
+                    
+                  </select></td>
+                  <td><select name="Department">
+                    <option value="IT">IT</option>
+                    <option value="Comp">Comp</option>
+                    <option value="Mech">Mech</option>
+                    <option value="Auto">Auto</option>
+                    
+                  </select></td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type='submit' value='Save'></td>
+                </tr>
+           
+
+
+
+                    
+                    </table>
+                </fieldset> 
+                
+    </form>
+    
+
+
+<br/>
+<br/>
+
+
+   
+   
+    
+</body>
+<html>
