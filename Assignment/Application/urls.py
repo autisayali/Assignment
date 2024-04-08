@@ -11,9 +11,7 @@ path('get',views.get,name='get'),
 path('stat',views.stat,name='stat'),
 path('delete',views.delete_task,name='delete'),
 path('edit',views.edit,name='edit'),
-path('tp',views.tp,name='tp'),
 path('dashboard',views.dashboard,name='dashboard'),
-
 path('navbar',views.navbar,name='navbar'),
 path('RecordEdited',views.RecordEdited,name='record'),
 ]
